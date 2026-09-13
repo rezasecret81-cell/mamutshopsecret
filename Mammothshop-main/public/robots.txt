@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /account
+Disallow: /account/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /payment/verify
+Disallow: /order/
+Disallow: /wishlist
+Disallow: /compare
+Disallow: /*?search=
+Disallow: /*?brand=
+Disallow: /*?sort=
+Disallow: /*?page=
+
+Sitemap: https://mamutshop.ir/sitemap.xml
+Sitemap: https://mamutshop.ir/sitemap?type=pages
+Sitemap: https://mamutshop.ir/sitemap?type=products
+Sitemap: https://mamutshop.ir/sitemap?type=categories
+Sitemap: https://mamutshop.ir/sitemap?type=brands
+Sitemap: https://mamutshop.ir/sitemap?type=blog

@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/sitemap",
+      "destination": "/api/sitemap"
+    },
+    {
+      "source": "/((?!api|_next|static|favicon|logo|robots|sitemap).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}
